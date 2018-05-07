@@ -21,10 +21,26 @@
     <span class="cevapNumarasi">Cevap 1:</span>
         <script type="text/javascript">
            
-           document.getElementById("basla").onclick = function() {
+            document.getElementById("basla").onclick = function() {
             var sayi = 0;
-          var tahmin = 0;
-          var sayac = 0;
+            var tahmin = 0;
+            var sayac = 0;
+            sayi=Math.round(Math.random()*100);
+            console.log(sayi);
+             do
+           sayac++
+           if (tahmin<sayi)
+           {
+           document.write("Daha büyük bir sayı giriniz.<br>"); 
+           }
+          else if (tahmin>sayi)
+         {
+         document.write("Daha küçük bir sayı giriniz.<br>"); 
+         }
+         else if (tahmin===sayi){
+         document.write("Tebrikler bildiniz. Tuttuğum sayı: "+ sayi );
+         {
+        
    
      
         /**
